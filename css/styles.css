@@ -84,3 +84,38 @@ address {
 .navbar-text a {
   cursor: pointer;
 }
+
+.carousel {
+  background-color: #1fdacd;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+  padding: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+
+.carousel-caption {
+  height: 100%;
+  width: calc(100% - 350px);
+  right: 50px;
+  top: 0;
+  left: 300px;
+  padding: 3rem;
+}
+
+.carousel-caption .d-flex {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 10;
+}
