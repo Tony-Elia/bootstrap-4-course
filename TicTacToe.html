@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+<title>Tic Tac Toe game</title>
+<link rel="stylesheet" href="t3-Style.css">
+</head>
+<body>
+ <img id="mt" src="images/title.jpg" alt="title">
+  <div class="container">
+    <div id="p1" class="divs" class="pls">
+      <span id="player1"> player 1 </span>
+      <img id="x" src="images/X.jpg" alt="x">
+      <div id="score1">
+        score <br><br><span id="scoreX">0</span>
+      </div>
+    </div>
+    <div id="game" class="divs">
+       The Game
+      <table id="tb">
+        <tr id="r1">
+          <td id="div1" class="cells" onclick="clicked(this)"></td>
+          <td id="div2" class="cells" onclick="clicked(this)"></td>
+          <td id="div3" class="cells" onclick="clicked(this)"></td>
+        </tr>
+        <tr id="r2">
+          <td id="div4" class="cells" onclick="clicked(this)"></td>
+          <td id="div5" class="cells" onclick="clicked(this)"></td>
+          <td id="div6" class="cells" onclick="clicked(this)"></td>
+        </tr>
+        <tr id="r3">
+          <td id="div7" class="cells" onclick="clicked(this)"></td>
+          <td id="div8" class="cells" onclick="clicked(this)"></td>
+          <td id="div9" class="cells" onclick="clicked(this)"></td>
+        </tr>
+      </table>
+    </div>
+    <div id="p2" class="divs">
+      <span id="player2"> player 2 </span>
+      <img id="O" src="images/O.jpg" alt="o">
+      <div id="score2">
+        score <br><br><span id="scoreO">0</span>
+      </div>
+    </div>
+  </div>
+  <div id="buttons">
+    <button class="btns" type="button" name="Back" onclick="back()">
+      <strong>< Back</strong>
+    </button>
+    <button id="again" class="btns" type="button" name="play-again" onclick="playGameAgain()">
+      <strong>Play again</strong>
+    </button>
+    <button class="btns" type="button" name="Reset" onclick="reseting()">
+      <strong>Reset</strong>
+    </button>
+    <img id="logo" src="images/logo.jpg" alt="company logo">
+  </div>
+<script src="t3-Js.js"></script>
+</body>
+</html>

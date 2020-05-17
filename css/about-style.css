@@ -1,0 +1,92 @@
+body {
+  transition: 0.3s;
+  padding: 0;
+  margin: 0;
+}
+
+.user-select-none {
+  user-select: none;
+}
+
+.table th, .table td {
+  border: none;
+}
+
+.jumbotron {
+  padding: 70px 30px;
+  margin: 0px auto;
+  background: #e15555;
+  color: floralwhite;
+  border-radius: 0;
+}
+
+.row-header {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  min-height: 400px;
+}
+
+.top-padding {
+  padding-top: 15px;
+}
+
+.bg-red {
+  background-color: #e15555;
+  border: 2px solid white;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 0px;
+  margin-bottom: 1.7em;
+}
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: floralwhite;
+}
+
+#pg-footer {
+  color: white;
+  background-color: black;
+  margin: 20px auto 0px auto;
+  padding: 20px 0px 20px 0px;
+}
+
+.footer-img {
+  width: 30px; 
+  margin: 0.5em;
+}
+
+.font-a-social {
+  color: floralwhite;
+  font-size: 70%;
+  text-decoration: none;
+}
+
+.tab-content {
+  border: 1px solid #dddddd;
+  border-top: 0;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  padding: 15px;
+  padding-top: 25px;
+}
+
+.accordion .card-header {
+  cursor: pointer;
+}
+
+.accordion .card-header h3 {
+  color: #46a3ea;
+  user-select: none;
+}
+
+hr {
+  width: 75%;
+}
