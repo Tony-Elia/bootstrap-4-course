@@ -123,3 +123,20 @@ address {
 #reserve-section button label{
   cursor: pointer;
 }
+
+#carouselButtons {
+  z-index: 100;
+  right: 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.fa-play.active,
+.fa-pause.active {
+  color: rgba(255, 255, 255, .5);
+}
+
+.fa-play,
+.fa-pause {
+  transition: .25s;
+}

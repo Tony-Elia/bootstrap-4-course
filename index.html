@@ -224,6 +224,14 @@
                     <a href="#mycarousel" class="carousel-control-next" role="button" data-slide="next">
                         <span class="carousel-control-next-icon"></span>
                     </a>
+                    <div class="btn-group" id="carouselButtons">
+                        <button id="carousel-pause" type="button" class="btn btn-danger btn-sm">
+                            <span class="fa fa-pause"></span>
+                        </button>
+                        <button id="carousel-play" type="button" class="btn btn-danger btn-sm">
+                            <span class="fa fa-play active"></span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -324,6 +332,29 @@
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <script>
+            $(function (){
+                var play = true;
+                $("#mycarousel").carousel({ interval: 2000 });
+                $("#carousel-pause").click(function() {
+                    $("#mycarousel").carousel("pause");
+                    if (play == true) {
+                        $(".fa-pause").toggleClass("active");
+                        $(".fa-play").toggleClass("active");
+                        play = false;
+                    };
+                });
+                $("#carousel-play").click(function() {
+                    $("#mycarousel").carousel("cycle");
+                    if (play == false ) {
+                        $(".fa-play").toggleClass("active");
+                        $(".fa-pause").toggleClass("active");
+                        play = true;
+                    }
+                });
+            });
+        </script>
 
 </body>
 
