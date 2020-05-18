@@ -33,7 +33,7 @@ footer a {
   color: rgb(175, 241, 251);
 }
 
-h3 {
+.container h3 {
   background-color: #327fc7;
   border-radius: 10px;
   padding: 2.5em 0.3em 2.5em 0.3em;
@@ -118,4 +118,8 @@ address {
 .carousel-control-prev,
 .carousel-control-next {
   z-index: 10;
+}
+
+#reserve-section button label{
+  cursor: pointer;
 }
