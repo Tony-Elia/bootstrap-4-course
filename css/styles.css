@@ -124,19 +124,13 @@ address {
   cursor: pointer;
 }
 
-#carouselButtons {
+#carousel-button {
   z-index: 100;
   right: 0;
   position: absolute;
   bottom: 0;
 }
 
-.fa-play.active,
-.fa-pause.active {
-  color: rgba(255, 255, 255, .5);
-}
-
-.fa-play,
-.fa-pause {
+#carousel-button span {
   transition: .25s;
 }
