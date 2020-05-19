@@ -1,0 +1,15 @@
+@mixin modal-header {
+    color: white;
+    background-color: #6886c5;
+}
+
+.modal-body {
+    background-color: #68bec559;
+}
+
+.modal-header {
+    @include modal-header();
+    .close {
+        color: floralwhite;
+    }
+}
