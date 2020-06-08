@@ -34,6 +34,8 @@
     "grunt-filerev2": "^2.2.1",
     "grunt-sass": "^3.1.0",
     "grunt-usemin": "^3.1.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.1.0",
     "htmlmin": "^0.0.7",
     "jit-grunt": "^0.10.0",
     "lite-server": "^2.5.4",
